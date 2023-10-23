@@ -1,0 +1,8 @@
+{
+    
+    "from": "customerservice@worldairfares.com",
+    "to": "kavindu@moresandtechnologies.com",
+    "subject": "string",
+    "bodyHtml": "string",
+    "senderName": "test"
+  }

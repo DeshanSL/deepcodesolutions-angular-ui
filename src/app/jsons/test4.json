@@ -1,0 +1,28 @@
+{
+    "MissingSegmentDetails": [
+        {
+            "SegmentId": 0,
+            "Equipment": "string",
+            "DepartureAirportTerminal": "string",
+            "ArrivalAirportTerminal": "string",
+            "MissingBagageDetails": [
+                {
+                    "BagageIndex": 0,
+                    "PassengerType": "string",
+                    "Value": 0,
+                    "Unit": "string"
+                }
+            ]
+        }
+    ],
+    "MissingPassengerDetails": [
+        {
+            "PassengerIndex": 0,
+            "PassengerType": "string",
+            "Title": "string",
+            "FirstName": "string",
+            "LastName": "string",
+            "TicketNumber": "string"
+        }
+    ]
+}

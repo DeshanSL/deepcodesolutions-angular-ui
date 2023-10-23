@@ -1,0 +1,19 @@
+.image-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.application-development{
+    min-height: 100VH;
+}
+.img-src{
+    height: 50vh;
+    max-width: 80vw;
+}
+
+
+.fade-in-from-left {
+    position: relative; /* Make sure the element has a position */
+  }
+
+

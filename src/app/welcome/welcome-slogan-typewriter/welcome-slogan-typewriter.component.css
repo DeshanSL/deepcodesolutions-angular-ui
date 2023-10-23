@@ -1,0 +1,12 @@
+.typing{
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}

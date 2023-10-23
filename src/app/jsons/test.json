@@ -1,0 +1,113 @@
+{
+    "brandId": 0,
+    "templateId": 0,
+    "GDS": "string",
+    "PNR": "string",
+    "attachments":[
+        {
+           "data":"string",
+           "fileName":"string"
+        }
+     ],
+    "flightSegments": {
+        "airlineReference": "string",
+        "segments": [
+            {
+                "segmentId": 0,
+                "marketingAirlineCode": "string",
+                "marketingAirlineFlightNumber": 0,
+                "operatingAirlineCode": "string",
+                "operatingAirlineFlightNumber": 0,
+                "equipmentType": "string",
+                "cabin": "string",
+                "seatClass": "string",
+                "flyingTime": "string",
+                "technicalStopoverAirportCode": "string",
+                "departureDetails": {
+                    "departureAirportCode": "string",
+                    "departureDate": "2022-02-28",
+                    "departureDay": "string",
+                    "departureTime": "20:15",
+                    "departureAirportTerminal": "string"
+                },
+                "arrivalDetails": {
+                    "arrivalAirportCode": "string",
+                    "arrivalDate": "2022-03-01",
+                    "arrivalDay": "string",
+                    "arrivalTime": "02:05",
+                    "arrivalAirportTerminal": "string"
+                },
+                "checkedBaggageDetails": [
+                    {
+                        "passengerType": "string",
+                        "value": 0,
+                        "unit": "string"
+                    },
+                    {
+                        "passengerType": "string",
+                        "value": 0,
+                        "unit": "string"
+                    }
+                ]
+            },
+            {
+                "segmentId": 0,
+                "marketingAirlineCode": "string",
+                "marketingAirlineFlightNumber": 0,
+                "operatingAirlineCode": "string",
+                "operatingAirlineFlightNumber": "string",
+                "equipmentType": "string",
+                "cabin": "string",
+                "seatClass": "string",
+                "flyingTime": "string",
+                "technicalStopoverAirportCode": "string",
+                "departureDetails": {
+                    "departureAirportCode": "string",
+                    "departureDate": "2022-03-01",
+                    "departureDay": "string",
+                    "departureTime": "03:10",
+                    "departureAirportTerminal": "string"
+                },
+                "arrivalDetails": {
+                    "arrivalAirportCode": "string",
+                    "arrivalDate": "2022-03-01",
+                    "arrivalDay": "string",
+                    "arrivalTime": "07:10",
+                    "arrivalAirportTerminal": "string"
+                },
+                "checkedBaggageDetails": [
+                    {
+                        "passengerType": "string",
+                        "value": 0,
+                        "unit": "string"
+                    },
+                    {
+                        "passengerType": "string",
+                        "value": 0,
+                        "unit": "string"
+                    }
+                ]
+            }
+        ],
+        "passengerDetails": [
+            {
+                "passengerType": "string",
+                "title": "string",
+                "firstName": "string",
+                "lastName": "string",
+                "gender": "string",
+                "dateOfBirth": "1998-01-25",
+                "ticketNumber": "string"
+            },
+            {
+                "passengerType": "string",
+                "title": "string",
+                "firstName": "string",
+                "lastName": "string",
+                "gender": "string",
+                "dateOfBirth": "1998-01-25",
+                "ticketNumber": "string"
+            }
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+
+.services-list{
+    height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.services-background{
+    position: relative;
+            width: 500px;
+            height: 300px;
+}
+.services-background::before{
+    content: "";
+    background-image: url('/assets/web-application-developer-and-data-analysis.jpg');
+    opacity: 0.5; /* Adjust the opacity value (0.0 to 1.0) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.services-content{
+    position: relative;
+    z-index: 1;
+}
+
+
+@media(max-width:992px){
+    .service-component{
+        min-height: 100vh;
+        scroll-snap-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .services-list{
+        height: 300vh;
+        display: block;
+    }
+}
+
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-element {
+  
+    animation: fadeIn 1s ease-in-out; /* Adjust the duration and timing function as needed */
+  }
+
+  
+
+
+
+

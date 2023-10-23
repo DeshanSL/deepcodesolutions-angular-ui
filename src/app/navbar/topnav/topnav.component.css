@@ -1,0 +1,99 @@
+.topnav{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    overflow: hidden;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    background-color: #331C7A;
+}
+.topnav a{
+    text-decoration: none;
+    color: gray;
+}
+
+.topnav a:hover{
+    color:white;
+}
+
+.topnav .topnav-ul{
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+img{
+    padding-top: 30px;
+    width: 200px;
+}
+
+.topnav .nav-btn-item{
+    background-color: #FF615A;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition:  scale 0.2 ease;
+}
+
+.topnav .nav-btn-item:hover{
+    background-color: #ff443a;
+}
+.topnav .nav-btn-item:active{
+    background-color: #fa1a0e;
+}
+
+.topnav-toggle-btn{
+    display: none;
+}
+
+@media(max-width:992px) {
+    
+    .topnav {
+        height: 100vh;
+        position: fixed;
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
+        grid-template-rows: auto auto auto; /* Three rows, adjust as needed */
+        grid-template-areas:
+            "logo topnav-toggle-btn"
+            
+            "topnav-ul topnav-ul"
+            "topnav-btn topnav-btn";
+        align-items: center;
+        gap: 10px; /* Adjust the gap between elements */
+    }
+    
+    .logo {
+        grid-area: logo;
+    }
+    
+    .topnav-toggle-btn {
+        grid-area: topnav-toggle-btn;
+    }
+    
+    .topnav-ul {
+        grid-area: topnav-ul;
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .topnav-item {
+        margin-right: 10px;
+    }
+    
+    .topnav-btn {
+        grid-area: topnav-btn;
+    }
+    
+    
+    
+}

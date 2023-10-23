@@ -1,0 +1,34 @@
+{
+    "brandId": 1,
+    "mosReference": "test",
+    "templateId": 1,
+    "sendersEmail": "kavindu@moresandtechnologies.com",
+    "gds": "1A",
+    "pnr": "V5QIJW",
+   
+    "missingDetails": {
+      "missingSegmentDetails": [
+        {
+          "segmentId": 1,
+          "equipment": null,
+          "adultBaggage": "0",
+          "arrivalAirportTerminal": null
+        },
+        {
+            "segmentId": 2,
+            "adultBaggage": "0",
+            "arrivalAirportTerminal": "testmatch"
+          }
+      ],
+      "missingPassengerDetails": [
+        {
+          "passengerIndex": 0,
+          "passengerType": null,
+          "title": "string",
+          "firstName": null,
+          "lastName": null,
+          "ticketNumber": "string"
+        }
+      ]
+    }
+  }
